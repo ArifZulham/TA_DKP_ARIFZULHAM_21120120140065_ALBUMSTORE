@@ -150,7 +150,7 @@ def submit():
     lb1 = Label(kpop_store_item, text = "$20").place(x = 75,y = 180) 
     R3 = Radiobutton(kpop_store_item, text="Harry Styles - Harry Styles (2017)", variable=radio_item, value=3).place(x=75, y=250) 
     lb1 = Label(kpop_store_item, text = "$25").place(x = 75,y = 280)
-    btn2 = Button(kpop_store_item, command = struk, text="SUBMIT").place(x=150,y=855)
+    btn2 = Button(kpop_store_item, command = struk, text="SUBMIT").place(x=150,y=400)
 
 def struk():
     global strukanda
